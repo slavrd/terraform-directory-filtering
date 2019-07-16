@@ -5,5 +5,5 @@ variable "rescount" {
 
 resource "random_pet" "pet" {
   count  = var.rescount
-  length = 4
+  length = 2
 }
